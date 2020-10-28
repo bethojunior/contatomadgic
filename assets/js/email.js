@@ -1,9 +1,9 @@
 $("#sendmail").click( function (){
-    swal('Enviado com sucesso','Aguarde nosso retorno','success');
+    
     let data = {};
     data.nome = document.getElementById('name').value;
     data.email = document.getElementById('email').value;
-    data.texto = document.getElementById('message').value;
+    data.texto = 'Usuário se cadastrou no site de contato da Madgic';
 
     $.ajax({
         url: '/email.php',
