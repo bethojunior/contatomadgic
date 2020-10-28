@@ -6,7 +6,7 @@ $nome = $_POST['nome'];
 $email = $_POST['email'];
 $texto = $_POST['texto'];
 $headers = "Enviado por : " . $nome . "\n";
-$mensagem = "Enviado por : " . $nome . "\n"."Email: ".$email."\n"."Motivo :".$texto;
+$mensagem = "Enviado por : " . $nome . "\n"."Contato: ".$email."\n".":".$texto;
 
 if(mail($destino, $headers , $mensagem)){
     echo true;
