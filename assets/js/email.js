@@ -1,5 +1,5 @@
-$("#sendmail").click( function (){
-    
+$("#email").mask("(00) 00000-0000")
+$("#sendmail").click( function (){   
     let data = {};
     data.nome = document.getElementById('name').value;
     data.email = document.getElementById('email').value;
