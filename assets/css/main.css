@@ -4,12 +4,14 @@
 .logo{
   width: 25vw;
 }
-
+#telefone{
+  width: 25vw!important;
+}
 @media screen and (max-width: 992px) {
   .logo{
     width: 100%;
   }
-  #name{
+  #name, #telefone, #email{
     width: 100%!important;
   }
 }
@@ -597,7 +599,7 @@ textarea {
   outline: 0;
   padding: 0 1em;
   text-decoration: none;
-  width: 100%; }
+  width: 25vw; }
   input[type="text"]:invalid,
   input[type="password"]:invalid,
   input[type="email"]:invalid,
@@ -880,7 +882,7 @@ button,
     margin-bottom: 0; }
   @media screen and (max-width: 1680px) {
     #footer {
-      bottom: 3.5em;
+      bottom: 0;
       left: 3.5em; } }
   @media screen and (max-width: 736px) {
     #footer {
@@ -888,7 +890,7 @@ button,
       left: 2em; } }
   @media screen and (max-width: 360px) {
     #footer {
-      bottom: 1.25em;
+      bottom: 0;
       left: 1.25em; } }
   @media screen and (max-height: 640px) {
     #footer {
